@@ -10,5 +10,8 @@ description: Gpt2 hyper optimisation
    <span style="font-size: 1.7rem; line-height: 1.8; font-family: 'Sans Serif';">
         GPT2 hyper optimised in Cuda
     </span>
+    <span style="font-size: 1.1rem; line-height: 1.8; font-family: 'Comic Sans'; ">
+        <a href="https://github.com/Autobot37/gpt.cpp" target="_blank">Github Link</a>
+    </span>
 </div>
 </body>

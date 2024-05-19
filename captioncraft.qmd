@@ -4,4 +4,11 @@ image: "caption.jpg"
 date: 19-05-2024
 description: Captioning by CLIP-GPT2
 ---
-## can caption image though.
+
+<body>
+<div class="gradient-text">
+   <span style="font-size: 1.1rem; line-height: 1.8; font-family: 'Sans Serif';">
+        <a href="https://github.com/Autobot37/caption-craft" target="_blank">Github Link</a>
+    </span>
+</div>
+</body>
