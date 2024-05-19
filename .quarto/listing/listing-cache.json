@@ -1,7 +1,9 @@
 {
   "listingMap": {
     "projects.qmd": [
-      "gptc.qmd"
+      "gptc.qmd",
+      "gameAI.qmd",
+      "captioncraft.qmd"
     ]
   }
 }

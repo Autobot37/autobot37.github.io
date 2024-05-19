@@ -1,7 +1,15 @@
 ---
 title: "Projects"
+theme:
+    - projects.scss
+
 listing:
     contents:
         - "gptc.qmd"
-    type: default
+        - "gameAI.qmd"
+        - "captioncraft.qmd"
+    type: grid
+    categories: true
+    feed: true
+    fields: [image, description, title]
 ---

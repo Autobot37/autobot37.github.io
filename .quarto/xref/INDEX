@@ -10,5 +10,11 @@
   },
   "gptc.qmd": {
     "gptc.html": "d04b2a06"
+  },
+  "captioncraft.qmd": {
+    "captioncraft.html": "c5ef4ed0"
+  },
+  "gameAI.qmd": {
+    "gameAI.html": "17264d2b"
   }
 }
