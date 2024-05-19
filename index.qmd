@@ -7,7 +7,7 @@ theme:
   - projects.scss
 about:
     template: trestles
-    image: "prime.jpg"
+    image: "anime.jpg"
     links:
       - icon: linkedin
         text: linkedin
