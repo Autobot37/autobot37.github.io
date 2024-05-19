@@ -12,3 +12,5 @@ description: Pacman game playing through reinforcement learning
     </span>
 </div>
 </body>
+
+{{< video pacman.webm width="450" height="675" >}}
