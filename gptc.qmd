@@ -1,8 +1,8 @@
 ---
-title: "Gpt2.c"
+title: "CudaGPT2"
 image: "gptc.jpg"
 date: 19-05-2024
-description: Gpt2 hyper optimisation
+description: GPT2 Hyper Optimization.
 ---
 
 <body>

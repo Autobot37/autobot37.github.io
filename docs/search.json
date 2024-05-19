@@ -4,12 +4,12 @@
     "href": "projects.html",
     "title": "",
     "section": "",
-    "text": "Projects \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGpt2.c\n\n\nGpt2 hyper optimisation\n\n\n\n\n\n\n\n\n\n\n\n\n\ngameAI\n\n\nPacman game playing through reinforcement learning\n\n\n\n\n\n\n\n\n\n\n\n\n\nCaption Craft\n\n\nCaptioning by CLIP-GPT2\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Projects \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCudaGPT2\n\n\nGPT2 Hyper Optimization.\n\n\n\n\n\n\n\n\n\n\n\n\n\nGameAI\n\n\nPacman game playing through reinforcement learning.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCaption Craft\n\n\nCaptioning by CLIP-GPT2\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "gptc.html",
     "href": "gptc.html",
-    "title": "Gpt2.c",
+    "title": "CudaGPT2",
     "section": "",
     "text": "GPT2 hyper optimised in Cuda   Github Link \n\n\n\nGPT2 implementation in C and Cuda.\n\n\n\nTasks did\n\nSeparate kernels for Cuda and Cpu.\nAll kernels from scratch except matmul.\ntokenizer implementation.\ninference implementation.\n\n\n\nTodo\n\nOptimizing Attention_forward kernel.\nprofiling and further optimizing based on profile.\n\n\n\nTo run\ngit clone -b cuda https://github.com/Autobot37/gpt.cpp\npython3 pythonscripts/prepare_tokenizer.py\npython3 writestate.py\nmake run_cuda\n\n\nDependencies\n\npython tiktoken module.\nnvidia cuda toolkit."
   },
@@ -23,7 +23,7 @@
   {
     "objectID": "gameAI.html",
     "href": "gameAI.html",
-    "title": "gameAI",
+    "title": "GameAI",
     "section": "",
     "text": "Github Link"
   }
