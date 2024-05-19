@@ -1,0 +1,7 @@
+---
+title: "Projects"
+listing:
+    contents:
+        - "gptc.qmd"
+    type: default
+---

@@ -1,0 +1,22 @@
+---
+title: "Shiva Singh Bagri"
+about:
+    template: trestles
+    image: "prime.jpg"
+    links:
+      - icon: linkedin
+        text: linkedin
+        href: https://linkedin.com
+      - icon: github
+        text: Github
+        href: https://github.com
+            
+--- 
+I am Shiva Singh Bagri.
+and my brain is unstable.
+
+## Experience
+
+SRIP 2024 
+
+
