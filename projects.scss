@@ -1,0 +1,64 @@
+/*-- scss:defaults --*/
+// Define your variables here
+$primary-color: #007bc2;
+$secondary-color: #4b2e83;
+$tertiary-color: #757883;
+$background-color: #e8e3d3;
+$text-color: #202020;
+
+/*-- scss:mixins --*/
+// Define your mixins here (if any)
+// Example:
+// @mixin border-radius($radius) {
+//   -webkit-border-radius: $radius;
+//   -moz-border-radius: $radius;
+//   border-radius: $radius;
+// }
+
+/*-- scss:functions --*/
+// Define your functions here (if any)
+// Example:
+// @function px-to-rem($px, $base-font-size: 16) {
+//   @return #{$px / $base-font-size}rem;
+// }
+
+
+/*-- scss:rules --*/
+// Define your CSS rules here
+div.gradient-text {
+  background: linear-gradient(
+    45deg,
+    $background-color,
+    $secondary-color,
+    $secondary-color,
+    $tertiary-color,
+    $text-color,
+    $primary-color,
+    $secondary-color,
+    $primary-color,
+    $tertiary-color,
+    $tertiary-color,
+    $text-color,
+    $background-color
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animated_text 30s ease-in-out infinite;
+}
+@keyframes animated_text {
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  }
+  
+
+/*-- scss:uses --*/
+// Import other SCSS files or modules here (if any)
+// Example:
+// @import 'partials/_header';

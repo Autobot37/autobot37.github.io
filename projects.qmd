@@ -1,8 +1,6 @@
 ---
-title: "Projects"
-theme:
-    - projects.scss
-
+theme: 
+    projects.scss
 listing:
     contents:
         - "gptc.qmd"
@@ -13,3 +11,41 @@ listing:
     feed: true
     fields: [image, description, title]
 ---
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .animate-me {
+      width: 100px;
+      height: 100px;
+      background-color: palevioletred;
+      margin: 50px auto;
+    }
+  </style>
+  <script src="animate.js"></script>
+</head>
+
+<body>
+
+<div class="gradient-text">
+   <span style="font-size: 2.1rem; line-height: 1.8; font-family: 'Sans Serif';">
+        Projects
+    </span>
+</div>
+
+
+<div class="animate-me"></div>
+
+<script>
+  gsap.to(".animate-me", {
+    duration: 10,
+    x: 300,
+    rotation: 360,
+    backgroundColor: "#007bc2",
+    borderRadius: "50%",
+    ease: "bounce"
+  });
+</script>
+
+</body>
+

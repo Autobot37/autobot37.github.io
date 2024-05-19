@@ -5,4 +5,10 @@ date: 19-05-2024
 description: Gpt2 hyper optimisation
 ---
 
-
+<body>
+<div class="gradient-text">
+   <span style="font-size: 1.7rem; line-height: 1.8; font-family: 'Sans Serif';">
+        GPT2 hyper optimised in Cuda
+    </span>
+</div>
+</body>

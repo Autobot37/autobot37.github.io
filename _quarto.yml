@@ -14,9 +14,11 @@ website:
 
 format:
   html:
-    theme: sandstone
-    css: styles.css
+    theme: 
+      - yeti
+      - projects.scss
     toc: true
+    smooth-scroll: true
 
 
 

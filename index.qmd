@@ -1,5 +1,10 @@
 ---
 title: "Shiva Singh Bagri"
+search: false
+sidebar: false
+theme:
+  - material
+  - projects.scss
 about:
     template: trestles
     image: "prime.jpg"
@@ -12,8 +17,12 @@ about:
         href: https://github.com/Autobot37
             
 --- 
-I am Shiva Singh Bagri.
-I am interested in Big Data.
+<div class="gradient-text">
+  <span style="font-size: 1.4rem; line-height: 0.4; font-family:Sans Serif;">
+    I am Shiva Singh Bagri.
+    I am interested in Big Data.
+  </span>
+</div>
 
 ## Experience
 
