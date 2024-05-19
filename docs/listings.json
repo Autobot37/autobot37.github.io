@@ -2,9 +2,9 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/captioncraft.html",
       "/gptc.html",
-      "/gameAI.html"
+      "/gameAI.html",
+      "/captioncraft.html"
     ]
   }
 ]

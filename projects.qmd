@@ -6,6 +6,7 @@ listing:
         - "gptc.qmd"
         - "gameAI.qmd"
         - "captioncraft.qmd"
+    sort: "date"
     type: grid
     categories: true
     feed: true
