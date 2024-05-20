@@ -1,30 +1,44 @@
 /*-- scss:defaults --*/
-// Define your variables here
 $primary-color: #007bc2;
 $secondary-color: #4b2e83;
 $tertiary-color: #757883;
 $background-color: #e8e3d3;
 $text-color: #202020;
 
+.projects-page {
+  background: url('doom.gif') no-repeat center center fixed; 
+  background-size: cover;
+  color: #fff; 
+  font-family: 'Sans Serif', sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 0; 
+
+  &::before {
+    content: "";
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: -1;
+    pointer-events: none;
+  }
+}
+
+
+.projects-page h1 {
+  font-size: 1.8rem; 
+  font-family:Arial, Helvetica, sans-serif;
+}
 /*-- scss:mixins --*/
-// Define your mixins here (if any)
-// Example:
-// @mixin border-radius($radius) {
-//   -webkit-border-radius: $radius;
-//   -moz-border-radius: $radius;
-//   border-radius: $radius;
-// }
 
 /*-- scss:functions --*/
-// Define your functions here (if any)
-// Example:
-// @function px-to-rem($px, $base-font-size: 16) {
-//   @return #{$px / $base-font-size}rem;
-// }
 
 
 /*-- scss:rules --*/
-// Define your CSS rules here
 div.gradient-text {
   background: linear-gradient(
     45deg,
@@ -59,6 +73,3 @@ div.gradient-text {
   
 
 /*-- scss:uses --*/
-// Import other SCSS files or modules here (if any)
-// Example:
-// @import 'partials/_header';

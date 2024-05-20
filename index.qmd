@@ -3,7 +3,7 @@ title: "Shiva Singh Bagri"
 search: false
 sidebar: false
 theme:
-  - material
+  - sandstone
   - projects.scss
 about:
     template: trestles
