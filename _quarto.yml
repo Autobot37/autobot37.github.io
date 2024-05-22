@@ -1,10 +1,14 @@
 project:
   type: website
   output-dir: docs
-
+search: false
+sidebar: false
 website:
+  search: false
+  sidebar: false
   navbar:
-    background: primary
+    background: grey
+    foreground: white
     search: true
     left:
       - text: "Home"
@@ -17,6 +21,7 @@ format:
     theme: 
       - yeti
       - projects.scss
+    backgroundcolor: whitesmoke
     toc: true
     smooth-scroll: true
 

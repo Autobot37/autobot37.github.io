@@ -1,0 +1,32 @@
+---
+title: "RAG"
+image: "4chan.jpg"
+date: 19-05-2024
+description: RAG Chatbot for 4chan data analysis.
+---
+<body>
+<div class="gradient-text">
+   <span style="font-size: 1.1rem; line-height: 1.8; font-family: 'Sans Serif';">
+        <a href="https://www.kaggle.com/code/shivasinghbagri/gsoc-calel-test-main"
+        target="_blank">Direct Kaggle Link</a>
+    </span>
+</div>
+</body>
+<h1>Analysis with BERT and RAG Chatbot</h1>
+<p>For detecting sentiments, topics, and previous conversations for crime analysis, I did the following:</p>
+<ol>
+    <li>Trained BERT for recognizing possible tones.</li>
+    <li>Developed a Retrieval Augmented Generation (RAG) Chatbot which is able to fetch similar messages from an indexed database and answer based on that context.</li>
+</ol>
+<p>This makes text analysis very easy as it can find patterns based on vector embedding of text. Additionally, it can caption images too and describe connections.</p>
+<p>We can automatically scrape 4chan too and perform automatic analysis. It prints a summary and topics discussed in the end. The default board is <code>/pol/</code> on 4chan.</p>
+
+{{< video scrap.webm >}}
+
+**or we can upload images and chat with it**
+
+{{< video chat.webm >}}
+
+**here model is zephyr 7 billion parameters ,finetuned on mistral.**
+
+{{< video talk.webm >}}

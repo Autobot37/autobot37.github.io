@@ -15,17 +15,40 @@ about:
       - icon: github
         text: Github
         href: https://github.com/Autobot37
+      - icon: drive
+        text: CV
+        href: https://docs.google.com/document/d/1lrrnlngkd5Csg6WVqMi7l_oaZuH0GuktAbPKiX69pFE/edit?usp=sharing
             
 --- 
 <div class="gradient-text">
   <span style="font-size: 1.4rem; line-height: 0.4; font-family:Sans Serif;">
     I am Shiva Singh Bagri.
-    I am interested in Big Data.
+    I am interested in Large Scale Data.
   </span>
 </div>
 
 ## Experience
 
-SRIP 2024 
+SRIP 2024 @ IITGN
+
+## GSoC proposals
+[*Not Accepted*]
+  <ol>
+    <li><a href="https://docs.google.com/document/d/1TJlrSzz-W1J16Te_b2WR_XC4H1Mg1Omwys0hZm_ll6c/edit?usp=sharing" target="_blank">Evolution of Dark web language with LLMs and RAG</a></li>
+    <li><a href="https://docs.google.com/document/d/1K1-PwsjAWxiHGQo8U5T6dyoQ5hRh_n0aNK8fJ_aVIUU/edit?usp=sharing" target="_blank">Structured text extraction with LLMs</a></li>
+  </ol>
+
+## Replit Demo
+<div>
+  <a href="https://replit.com/@autobotrealm/Doom-Map-Rendering" 
+  target="_blank">Binary Space Partitioning</a>
+</div>
+
+## Some Jupyter notebooks
+<ol>
+  <li><a href="https://github.com/Autobot37/jupyter/blob/main/FLASHPYTHON.ipynb" target="_blank">Distributed Python Pygame with Ray</a></li>
+  <li><a href="https://autobot37.github.io/imageclassify" target="_blank">Image Data Analysis</a></li>
+  <li><a href="https://github.com/Autobot37/jupyter/blob/main/WengertAutograd.ipynb" target="_blank">Wengert Autograd</a></li>
+</ol>
 
 

@@ -1,6 +1,7 @@
 {
   "listingMap": {
     "projects.qmd": [
+      "rag.qmd",
       "gptc.qmd",
       "gameAI.qmd",
       "captioncraft.qmd"

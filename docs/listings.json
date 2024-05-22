@@ -2,6 +2,7 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/rag.html",
       "/gptc.html",
       "/gameAI.html",
       "/captioncraft.html"

@@ -2,9 +2,10 @@
 title: "GameAI"
 image: "pac.png"
 date: 19-05-2024
-description: Pacman game playing through reinforcement learning.
+description: Game playing through reinforcement learning.
 ---
 
+## Pacman
 <body>
 <div class="gradient-text">
    <span style="font-size: 1.1rem; line-height: 1.8; font-family: 'Sans Serif';">
@@ -14,3 +15,14 @@ description: Pacman game playing through reinforcement learning.
 </body>
 
 {{< video pacman.webm width="450" height="675" >}}
+
+## Car Racer
+<body>
+<div class="gradient-text">
+   <span style="font-size: 1.1rem; line-height: 1.8; font-family: 'Sans Serif';">
+        <a href="https://github.com/Autobot37/playerOne" target="_blank">Github Link</a>
+    </span>
+</div>
+</body>
+
+{{< video pygame.webm width="450" height="675" >}}
