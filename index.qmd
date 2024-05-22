@@ -42,8 +42,8 @@ SRIP 2024 @ IITGN
 **On Logistic Regression to Neural Network**
 <li><a href="https://colab.research.google.com/drive/1F14NmcWfcTc5vPOJl-11yhypshrJQMSC?usp=sharing
 " target="_blank">Colab Link</a></li>
-<li><a href="https://youtu.be/NAVoHUqb3zU"target="_blank">Video Link</a></li>
-
+<li><a href="https://drive.google.com/file/d/1STFCRoOsLAhnE19-lHPuvxCr2baGj9Ty/view?usp=sharing
+"target="_blank">Video Link</a></li>
 
 ## Replit Demo
 <div>
