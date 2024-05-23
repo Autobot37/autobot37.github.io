@@ -31,6 +31,11 @@ about:
 
 SRIP 2024 @ IITGN
 
+## Papers
+
+<a href="https://edas.info/showManuscript.php?m=1571017056&type=paper&ext=pdf&title=PDF+file
+"target="_blank">Feature-Based Diagnosis of ADHD Using Deep Learning</a>
+
 ## GSoC proposals
 [*Not Accepted*]
   <ol>
