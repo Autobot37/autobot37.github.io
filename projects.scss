@@ -7,12 +7,12 @@ $text-color: #202020;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.body {
+  font-family:'sans-serif';
 }
 
 .navbar {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
 }
 
 .projects-page {
@@ -52,18 +52,9 @@ body {
 div.gradient-text {
   background: linear-gradient(
     45deg,
-    #003366,
-    #660099,
-    #660099,
-    #993366,
-    #330033,
-    #006699,
-    #660099,
-    #006699,
-    #993366,
-    #993366,
-    #330033,
-    #003366
+    orange,
+    rgb(255, 0, 76),
+    orange,
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -81,5 +72,14 @@ div.gradient-text {
     }
   }
   
-
+  .header-text {
+    font-size: 1.4rem;
+    line-height: 0.4;
+    font-family: 'Sans Serif';
+  }
+  
+  body.projects-page {
+    font-family: 'Roboto'; /* Replace 'Sans Serif' with the desired font family */
+  }
+  
 /*-- scss:uses --*/
