@@ -81,5 +81,14 @@ div.gradient-text {
   body.projects-page {
     font-family: 'Roboto'; /* Replace 'Sans Serif' with the desired font family */
   }
-  
+
+  .about-image {
+    border-radius: 50%; /* Make the image circular */
+    width: 10px;       /* Set the desired width */
+    height: 400px;      /* Set the desired height to create a square */
+    margin: 10px auto;  /* Center the image with margin */
+    display: block;     /* Ensure the image is a block element */
+    object-fit: cover;  /* Crop the image to fit the container */
+    object-position: top; /* Crop from the bottom */
+  }
 /*-- scss:uses --*/

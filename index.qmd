@@ -6,7 +6,7 @@ theme:
   - projects.scss
 about:
     template: trestles
-    image: "anime.png"
+    image: "myimg1.jpeg"
     links:
       - icon: linkedin
         text: linkedin
@@ -19,6 +19,8 @@ about:
         href: https://docs.google.com/document/d/1lrrnlngkd5Csg6WVqMi7l_oaZuH0GuktAbPKiX69pFE/edit?usp=sharing
             
 --- 
+
+
 <div class="gradient-text">
   <span style="font-size: 1.4rem; line-height: 0.4; font-family:Sans Serif;">
     I am Shiva Singh Bagri.
