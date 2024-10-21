@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-07-05">
-<meta name="description" content="RAG Chatbot for 4chan data analysis.">
 
-<title>RAG</title>
+<title>shivasinghbagri</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,14 +29,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/videojs/video.min.js"></script>
-<link href="site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -59,7 +54,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -71,7 +66,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./shivasinghbagri.html"> 
+    <a class="nav-link active" href="./shivasinghbagri.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -89,76 +84,85 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">RAG</h1>
+<div class="quarto-about-trestles content">
+  <div class="about-entity">
+    <img src="myimg1.jpeg" class="about-image
+  rounded " style="width: 20em;">
+    <div class="about-links">
+  <a href="https://www.linkedin.com/in/shiva-singh-bagri-060089174/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">linkedin</span>
+  </a>
+  <a href="https://github.com/Autobot37" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+  <a href="https://docs.google.com/document/d/1lrrnlngkd5Csg6WVqMi7l_oaZuH0GuktAbPKiX69pFE/edit?usp=sharing" class="about-link" rel="" target="">
+    <i class="bi bi-drive"></i>
+     <span class="about-link-text">CV</span>
+  </a>
 </div>
-
-<div>
-  <div class="description">
-    RAG Chatbot for 4chan data analysis.
   </div>
-</div>
-
-
-<div class="quarto-title-meta">
-
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">July 5, 2025</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-
+  <div class="about-contents"><main class="content" id="quarto-document-content">
 <div class="gradient-text">
-<p><span style="font-size: 1.1rem; line-height: 1.8; font-family: 'Sans Serif';"> <a href="https://www.kaggle.com/code/shivasinghbagri/gsoc-calel-test-main" target="_blank">Direct Kaggle Link</a> </span></p>
+<p><span style="font-size: 1.4rem; line-height: 0.4; font-family:Sans Serif;"> I am Shiva Singh Bagri studying Mathematics and Computing. </span></p>
 </div>
-
-<h1>
-Analysis with BERT and RAG Chatbot
-</h1>
-<p>
-For detecting sentiments, topics, and previous conversations for crime analysis, I did the following:
-</p>
+<div class="header-text">
+<p><span style="font-size: 1.4rem; line-height: 0.4; font-family:Sans Serif;"> Experience </span></p>
+</div>
+<p>SRIP 2024 @ IITGN</p>
+<a href="https://drive.google.com/file/d/1nrAzEoEECxWMB_2WsHMw-0Yh7eFTm-Gk/view?usp=sharing" target="_blank">Domain Adaptation Brick Kilns Detection</a> [Poster]
 <ol>
 <li>
-Trained BERT for recognizing possible tones.
+Worked on the Object Detection on Large Dataset to identify Brick Kilns for reducing Air Pollution.
 </li>
 <li>
-Developed a Retrieval Augmented Generation (RAG) Chatbot which is able to fetch similar messages from an indexed database and answer based on that context.
+Used Domain Adaptation Techniques to reduce dataset labels used for training.
 </li>
 </ol>
-<p>
-This makes text analysis very easy as it can find patterns based on vector embedding of text. Additionally, it can caption images too and describe connections.
-</p>
-<p>
-We can automatically scrape 4chan too and perform automatic analysis. It prints a summary and topics discussed in the end. The default board is <code>/pol/</code> on 4chan.
-</p>
-<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="scrap.webm"></video></div>
-<p><strong>or we can upload images and chat with it</strong></p>
-<div class="quarto-video"><video id="video_shortcode_videojs_video2" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="chat.webm"></video></div>
-<p><strong>here model is zephyr 7 billion parameters ,finetuned on mistral.</strong></p>
-<div class="quarto-video"><video id="video_shortcode_videojs_video3" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="talk.webm"></video></div>
+<div class="header-text">
+<p><span style="font-size: 1.4rem; line-height: 0.4; font-family:Sans Serif;"> Papers </span></p>
+</div>
+<p><a href="https://drive.google.com/file/d/1lJQRoFkqrksNzIJHQdAGHgdFeAR6enI1/view?usp=sharing
+" target="_blank">Feature-Based Diagnosis of ADHD Using Deep Learning</a></p>
+<div class="header-text">
+<p><span style="font-size: 1.4rem; line-height: 0.4; font-family:Sans Serif;"> GSoC Proposals </span></p>
+</div>
+[Not Accepted]
+<ol>
+<li>
+<a href="https://docs.google.com/document/d/1TJlrSzz-W1J16Te_b2WR_XC4H1Mg1Omwys0hZm_ll6c/edit?usp=sharing" target="_blank">Evolution of Dark web language with LLMs and RAG</a>
+</li>
+<li>
+<a href="https://docs.google.com/document/d/1K1-PwsjAWxiHGQo8U5T6dyoQ5hRh_n0aNK8fJ_aVIUU/edit?usp=sharing" target="_blank">Structured text extraction with LLMs</a>
+</li>
+</ol>
+<div class="header-text">
+<p><span style="font-size: 1.4rem; line-height: 0.4; font-family:Sans Serif;"> Some Code Samples </span></p>
+</div>
+<ol>
+<li>
+<a href="https://colab.research.google.com/drive/1F14NmcWfcTc5vPOJl-11yhypshrJQMSC?usp=sharing" target="_blank">On Logistic Regression to Neural Networks.</a>
+</li>
+<li>
+<a href="https://autobot37.github.io/imageclassify/ml-for-sustainability-srip-2024.html" target="_blank">Image Data Analysis</a>
+</li>
+</ol>
+<div class="header-text">
+<p><span style="font-size: 1.4rem; line-height: 0.4; font-family:Sans Serif;"> Videos </span></p>
+</div>
+<ol>
+<li>
+<a href="https://youtu.be/aieR9CO5aCQ" target="_blank">Binary Space Partioning</a>
+</li>
+</ol>
 
 
-
-</main> <!-- /main -->
+</main></div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -179,13 +183,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -569,9 +566,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>videojs(video_shortcode_videojs_video1);</script>
-<script>videojs(video_shortcode_videojs_video2);</script>
-<script>videojs(video_shortcode_videojs_video3);</script>
 
 
 

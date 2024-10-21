@@ -12,7 +12,7 @@ website:
     search: true
     left:
       - text: "Home"
-        href: index.qmd
+        href: shivasinghbagri.qmd
       - text: "Projects"
         href: projects.qmd
 

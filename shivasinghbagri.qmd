@@ -23,8 +23,7 @@ about:
 
 <div class="gradient-text">
   <span style="font-size: 1.4rem; line-height: 0.4; font-family:Sans Serif;">
-    I am Shiva Singh Bagri.
-    I am interested in Large Scale Data.
+    I am Shiva Singh Bagri studying Mathematics and Computing.
   </span>
 </div>
 
@@ -36,13 +35,21 @@ about:
 
 SRIP 2024 @ IITGN
 
+<a href="https://drive.google.com/file/d/1nrAzEoEECxWMB_2WsHMw-0Yh7eFTm-Gk/view?usp=sharing" target="_blank">Domain Adaptation Brick Kilns Detection</a>
+[Poster]
+<ol>
+  <li>Worked on the Object Detection on Large Dataset to identify Brick Kilns for reducing Air Pollution.</li>
+  <li>Used Domain Adaptation Techniques to reduce dataset labels used for training.</li>
+</ol>
+
+
 <div class="header-text">
   <span style="font-size: 1.4rem; line-height: 0.4; font-family:Sans Serif;">
     Papers
   </span>
 </div>
 
-<a href="https://edas.info/showManuscript.php?m=1571017056&type=paper&ext=pdf&title=PDF+file
+<a href="https://drive.google.com/file/d/1lJQRoFkqrksNzIJHQdAGHgdFeAR6enI1/view?usp=sharing
 "target="_blank">Feature-Based Diagnosis of ADHD Using Deep Learning</a>
 
 <div class="header-text">
@@ -59,49 +66,20 @@ SRIP 2024 @ IITGN
 
 <div class="header-text">
   <span style="font-size: 1.4rem; line-height: 0.4; font-family:Sans Serif;">
-    Tutorial
+    Some Code Samples
   </span>
 </div>
-
-**On Logistic Regression to Neural Network**
 <ol>
-<li><a href="https://colab.research.google.com/drive/1F14NmcWfcTc5vPOJl-11yhypshrJQMSC?usp=sharing
-" target="_blank">Colab Link</a></li>
-<li><a href="https://drive.google.com/file/d/1STFCRoOsLAhnE19-lHPuvxCr2baGj9Ty/view?usp=sharing
-"target="_blank">Video Link</a></li>
+  <li><a href="https://colab.research.google.com/drive/1F14NmcWfcTc5vPOJl-11yhypshrJQMSC?usp=sharing" target="_blank">On Logistic Regression to Neural Networks.</a></li>
+  <li><a href="https://autobot37.github.io/imageclassify/ml-for-sustainability-srip-2024.html" target="_blank">Image Data Analysis</a></li>
 </ol>
 
 <div class="header-text">
   <span style="font-size: 1.4rem; line-height: 0.4; font-family:Sans Serif;">
-    Replit Demos
+    Videos
   </span>
 </div>
 <ol>
-<li><a href="https://replit.com/@autobotrealm/Doom-Map-Rendering" target="_blank">Binary Space Partitioning</a></li>
-<li><a href="https://youtu.be/aieR9CO5aCQ" target="_blank">Video Link</a></li>
+  <li><a href="https://youtu.be/aieR9CO5aCQ" target="_blank">Binary Space Partioning</a></li>
 </ol>
-
-<div class="header-text">
-  <span style="font-size: 1.4rem; line-height: 0.4; font-family:Sans Serif;">
-    Some Jupyter Notebooks
-  </span>
-</div>
-<ol>
-  <li><a href="https://github.com/Autobot37/jupyter/blob/main/FLASHPYTHON.ipynb" target="_blank">Distributed Python Pygame with Ray</a></li>
-  <li><a href="https://autobot37.github.io/imageclassify" target="_blank">Image Data Analysis</a></li>
-   <li><a href="  https://colab.research.google.com/drive/1omQ8BMY3Bel8Ta0pyq4bawvjSL3r4co2?usp=sharing
-" target="_blank">Medical Image Classifcation</a></li>
-  <li><a href="https://github.com/Autobot37/jupyter/blob/main/WengertAutograd.ipynb" target="_blank">Wengert Autograd</a></li>
-</ol>
-
-<div class="header-text">
-  <span style="font-size: 1.4rem; line-height: 0.4; font-family:Sans Serif;">
-    Project Euler
-  </span>
-</div>
-<div class="header-text">
-  <span style="font-size: 1.4rem; line-height: 0.4; font-family:Sans Serif;">
-    <img src="shockwave37.png" />
-  </span>
-</div>
 
