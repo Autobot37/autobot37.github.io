@@ -16,10 +16,8 @@ about:
         href: https://github.com/Autobot37
       - icon: drive
         text: CV
-        href: https://docs.google.com/document/d/1lrrnlngkd5Csg6WVqMi7l_oaZuH0GuktAbPKiX69pFE/edit?usp=sharing
-            
+        href: https://docs.google.com/document/d/1lrrnlngkd5Csg6WVqMi7l_oaZuH0GuktAbPKiX69pFE/edit?usp=sharing 
 --- 
-
 
 <div class="gradient-text">
   <span style="font-size: 1.4rem; line-height: 0.4; font-family:Sans Serif;">
