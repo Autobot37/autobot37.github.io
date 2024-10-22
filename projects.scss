@@ -10,28 +10,28 @@ $text-color: #202020;
 .body {
   font-family:'sans-serif';
 }
-body {
-  background: url('doom.gif') no-repeat center center fixed;
-  background-size: cover;
-  color: #fff;
-  font-family: 'Sans Serif', sans-serif;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  z-index: 0;
-}
+// body {
+//   background: url('doom.gif') no-repeat center center fixed;
+//   background-size: cover;
+//   color: #fff;
+//   font-family: 'Sans Serif', sans-serif;
+//   margin: 0;
+//   padding: 0;
+//   position: relative;
+//   z-index: 0;
+// }
 
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.82);
-  z-index: -1;
-  pointer-events: none;
-}
+// body::before {
+//   content: "";
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background: rgba(0, 0, 0, 0.82);
+//   z-index: -1;
+//   pointer-events: none;
+// }
 .navbar {
   font-family: 'Roboto';
 }
