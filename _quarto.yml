@@ -11,7 +11,7 @@ website:
     background: "#333"
     foreground: white
     search: false
-    pinned: true
+    pinned: false
     collapse: false
     left:
       - text: "Home"
