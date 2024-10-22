@@ -7,9 +7,12 @@ website:
   search: false
   sidebar: false
   navbar:
-    background: grey
+    
+    background: "#333"
     foreground: white
-    search: true
+    search: false
+    pinned: true
+    collapse: false
     left:
       - text: "Home"
         href: index.qmd

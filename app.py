@@ -408,13 +408,10 @@ class Engine:
     self.on_init()
 
   def on_init(self):
-    self.wad_data = WADData(map_name='E1M7')
+    self.wad_data = WADData(map_name='E1M4')
     self.map_renderer = MapRender(self)
     self.player = Player(self)
     self.bsp = BSP(self)
-
-  def update(self):
-    self.player.update()
     self.dt = self.clock.tick()
     pg.display.set_caption(f'{self.clock.get_fps()}')
 
