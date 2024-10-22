@@ -6,7 +6,7 @@ theme:
   - projects.scss
 about:
     template: trestles
-    image: "myimg1.jpeg"
+    image: "myimg1.png"
     links:
       - icon: linkedin
         text: linkedin
@@ -16,7 +16,7 @@ about:
         href: https://github.com/Autobot37
       - icon: drive
         text: CV
-        href: https://docs.google.com/document/d/1lrrnlngkd5Csg6WVqMi7l_oaZuH0GuktAbPKiX69pFE/edit?usp=sharing 
+        href: https://drive.google.com/file/d/1pN7hHI_v_Dmd-UQnj3vLezXiOGf1sNcq/view?usp=sharing
 --- 
 
 <div class="gradient-text">
