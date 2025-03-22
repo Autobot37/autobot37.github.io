@@ -8,6 +8,9 @@ about:
     template: trestles
     image: "myimg1.png"
     links:
+      - text : Projects
+        href : projects.qmd
+        icon : star
       - icon: linkedin
         text: linkedin
         href: https://www.linkedin.com/in/shiva-singh-bagri-060089174/
@@ -16,7 +19,7 @@ about:
         href: https://github.com/Autobot37
       - icon: drive
         text: CV
-        href: https://drive.google.com/file/d/1pN7hHI_v_Dmd-UQnj3vLezXiOGf1sNcq/view?usp=sharing
+        href: https://drive.google.com/file/d/1E1SAi58OLHxj5uf_FJOByjdYlD2Y-TwD/view?usp=sharing
 --- 
 
 <div class="gradient-text">

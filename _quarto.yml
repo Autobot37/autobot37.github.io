@@ -6,18 +6,7 @@ sidebar: false
 website:
   search: false
   sidebar: false
-  navbar:
-    
-    background: "#333"
-    foreground: white
-    search: false
-    pinned: false
-    collapse: false
-    left:
-      - text: "Home"
-        href: index.qmd
-      - text: "Projects"
-        href: projects.qmd
+
 
 format:
   html:
