@@ -20,6 +20,9 @@ about:
       - icon: drive
         text: CV
         href: https://drive.google.com/file/d/1E1SAi58OLHxj5uf_FJOByjdYlD2Y-TwD/view?usp=sharing
+      - icon: scholar
+        text: Google Scholar
+        href: https://scholar.google.com/citations?user=wGtCDIwAAAAJ&hl=en&oi=ao
 --- 
 
 <div class="gradient-text">
