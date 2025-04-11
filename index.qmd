@@ -62,10 +62,8 @@ SRIP 2024 @ IITGN
   </span>
 </div>
 
-[Not Accepted]
   <ol>
     <li><a href="https://docs.google.com/document/d/1TJlrSzz-W1J16Te_b2WR_XC4H1Mg1Omwys0hZm_ll6c/edit?usp=sharing" target="_blank">Evolution of Dark web language with LLMs and RAG</a></li>
-    <li><a href="https://docs.google.com/document/d/1K1-PwsjAWxiHGQo8U5T6dyoQ5hRh_n0aNK8fJ_aVIUU/edit?usp=sharing" target="_blank">Structured text extraction with LLMs</a></li>
   </ol>
 
 <div class="header-text">
