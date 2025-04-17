@@ -1,0 +1,157 @@
+---
+title: "Don't Slip, dig only main tasks"
+---
+
+<style>
+  .advice-card {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    border-left: 6px solid #ccc;
+  }
+
+  .advice-card p {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+
+  .advice-card ul {
+    padding-left: 1.2rem;
+    margin: 0;
+  }
+
+  .controls {
+    margin-bottom: 1rem;
+  }
+
+  select {
+    margin-right: 1rem;
+    padding: 0.4rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+    background-color: white;
+    transition: background-color 0.3s ease;
+  }
+
+  /* Dynamic classes for dropdowns */
+  .btn-green {
+    background-color: #e6f4ea;
+  }
+
+  .btn-orange {
+    background-color: #fff4e5;
+  }
+
+  .btn-red {
+    background-color: #fcebea;
+  }
+</style>
+
+<div class="controls">
+  <select id="energySelect">
+    <option value="" disabled selected hidden>Select Energy</option>
+    <option value="high">High Energy</option>
+    <option value="medium">Medium Energy</option>
+    <option value="low">Low Energy</option>
+  </select>
+  <select id="discomfortSelect">
+    <option value="" disabled selected hidden>Select Discomfort</option>
+    <option value="low">Low Discomfort</option>
+    <option value="high">High Discomfort</option>
+  </select>
+</div>
+
+<div class="advice-card" id="adviceCard">
+  <p>Select your state above to see advice.</p>
+</div>
+
+```{=html}
+<script>
+const adviceMap = {
+  'high_low': [
+    "Can't focus due to high energy.",
+    "Do some physical exercise to remove it.",
+    "Do a coding problem or mental maths to remove extra energy.",
+    "Avoid high‑reward distractions."
+  ],
+  'high_high': [
+    "Feeling on edge and gonna explode.",
+    "Pause & breathe to regain control.",
+    "Use pen + paper if needed.",
+    "Chant 'Aum' for focus."
+  ],
+  'medium_low': [
+    "Stable state but high chance of slip‑up.",
+    "Bootstrap and build momentum for work.",
+    "Complete something easy.",
+    "Avoid high‑reward distractions."
+  ],
+  'medium_high': [
+    "Annoyed at first glance.",
+    "Start with the most interesting part to bootstrap momentum.",
+    "Complete something easy.",
+    "Avoid high‑reward distractions."
+  ],
+  'low_low': [
+    "Physically low energy but stable.",
+    "Do step‑by‑step work and keep doing it.",
+    "Move body to gain some energy.",
+    "Avoid high‑reward distractions."
+  ],
+  'low_high': [
+    "Very annoyed, high burnout risk.",
+    "Don't do high‑cognition work—only low‑cog tasks.",
+    "Move body to gain some energy.",
+    "Avoid high‑reward distractions."
+  ]
+};
+
+const energySelect = document.getElementById('energySelect');
+const discomfortSelect = document.getElementById('discomfortSelect');
+const adviceCard = document.getElementById('adviceCard');
+
+function updateAdvice() {
+  const key = `${energySelect.value}_${discomfortSelect.value}`;
+  if (energySelect.value && discomfortSelect.value) {
+    const items = adviceMap[key] || ["No advice found."];
+
+    // Main point bolded
+    const mainPoint = `<p><strong>→ ${items[0]}</strong></p>`;
+    const details = items.slice(1).map(i => `<li>${i}</li>`).join('');
+
+    adviceCard.innerHTML = mainPoint + `<ul>${details}</ul>`;
+  }
+
+  updateDropdownColors();
+}
+
+function updateDropdownColors() {
+  const key = `${energySelect.value}_${discomfortSelect.value}`;
+  const e = energySelect;
+  const d = discomfortSelect;
+
+  // Reset classes
+  [e, d].forEach(el => {
+    el.classList.remove('btn-green', 'btn-orange', 'btn-red');
+  });
+
+  if (!e.value || !d.value) return;
+
+  if (key === 'high_high') {
+    e.classList.add('btn-red');
+    d.classList.add('btn-red');
+  } else if (e.value === 'high' || d.value === 'high') {
+    e.classList.add('btn-orange');
+    d.classList.add('btn-orange');
+  } else {
+    e.classList.add('btn-green');
+    d.classList.add('btn-green');
+  }
+}
+
+energySelect.addEventListener('change', updateAdvice);
+discomfortSelect.addEventListener('change', updateAdvice);
+</script>
