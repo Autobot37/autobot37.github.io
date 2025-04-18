@@ -90,6 +90,7 @@ const adviceMap = {
     "Complete something easy.",
     "Avoid high‑reward distractions.",
     "Previously boring tasks will be lucrative now but don't get distracted.",
+    "if boredom, don't add and search other tasks, do more creative sub-tasks from your main tasks."
   ],
   'medium_high': [
     "Annoyed at first glance.",
