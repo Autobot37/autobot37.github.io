@@ -82,7 +82,6 @@ const adviceMap = {
     "Feeling on edge and gonna explode.",
     "Pause & breathe to regain control.",
     "Use pen + paper if needed.",
-    "Chant 'Aum' for focus.",
     "Okay to let go in training tasks and continue doing it for sake of training."
   ],
   'medium_low': [
