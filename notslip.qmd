@@ -90,7 +90,8 @@ const adviceMap = {
     "Complete something easy.",
     "Avoid high‑reward distractions.",
     "Previously boring tasks will be lucrative now but don't get distracted.",
-    "boredom, don't add and search other tasks, or just fucking sit and meditate(like serious meditation or put yourself in any discomfort(just run)) because it will make you feel more uncomfortable which will make uncomfortable tasks Disneyland."
+    "boredom, don't add and search other tasks just make discomfort your friend\.
+    it is needed to make breakthrough and rise above."
   ],
   'medium_high': [
     "Annoyed at first glance.",
